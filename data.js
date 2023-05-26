@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-vestibulo-lounge",
-      "name": "VESTIBULO LOUNGE",
+      "id": "0-parteluz",
+      "name": "PARTELUZ",
       "levels": [
         {
           "tileSize": 256,
@@ -20,28 +20,16 @@ var APP_DATA = {
       ],
       "faceSize": 843.5,
       "initialViewParameters": {
-        "yaw": -2.1905243552312896,
-        "pitch": 0.04891873616364073,
+        "yaw": 0.051407879786012245,
+        "pitch": 0.27471895877749297,
         "fov": 1.41569238083293
       },
       "linkHotspots": [
         {
-          "yaw": -3.1056791716675,
-          "pitch": 0.12490722536123755,
+          "yaw": -3.0908503759375066,
+          "pitch": 0.4448838784808178,
           "rotation": 0,
-          "target": "11-pasillo-cocina"
-        },
-        {
-          "yaw": -1.1261020695500061,
-          "pitch": 0.1932606358362019,
-          "rotation": 0,
-          "target": "3-barra-lounge"
-        },
-        {
-          "yaw": -0.0005561132417888359,
-          "pitch": 0.20708912117628664,
-          "rotation": 0,
-          "target": "2-bao-cafeteria"
+          "target": "10-restaurante"
         }
       ],
       "infoHotspots": []
@@ -87,7 +75,53 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "2-bao-cafeteria",
+      "id": "2-vestibulo-lounge",
+      "name": "VESTIBULO LOUNGE",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 843.5,
+      "initialViewParameters": {
+        "yaw": -2.1905243552312896,
+        "pitch": 0.04891873616364073,
+        "fov": 1.41569238083293
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.1056791716675,
+          "pitch": 0.12490722536123755,
+          "rotation": 0,
+          "target": "11-pasillo-cocina"
+        },
+        {
+          "yaw": -1.1261020695500061,
+          "pitch": 0.1932606358362019,
+          "rotation": 0,
+          "target": "4-barra-lounge"
+        },
+        {
+          "yaw": -0.0005561132417888359,
+          "pitch": 0.20708912117628664,
+          "rotation": 0,
+          "target": "3-bao-cafeteria"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-bao-cafeteria",
       "name": "BAÑO CAFETERIA",
       "levels": [
         {
@@ -115,13 +149,13 @@ var APP_DATA = {
           "yaw": 0.48991216846907903,
           "pitch": 0.3291625975083541,
           "rotation": 0.7853981633974483,
-          "target": "0-vestibulo-lounge"
+          "target": "2-vestibulo-lounge"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-barra-lounge",
+      "id": "4-barra-lounge",
       "name": "BARRA LOUNGE",
       "levels": [
         {
@@ -149,19 +183,19 @@ var APP_DATA = {
           "yaw": -1.7751680221262944,
           "pitch": 0.23649037028411257,
           "rotation": 0,
-          "target": "0-vestibulo-lounge"
+          "target": "2-vestibulo-lounge"
         },
         {
           "yaw": 1.8458720618464781,
           "pitch": 0.2686052650918711,
           "rotation": 0,
-          "target": "6-lounge-sofa"
+          "target": "7-lounge-sofa"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-cafeteria",
+      "id": "5-cafeteria",
       "name": "CAFETERIA",
       "levels": [
         {
@@ -189,19 +223,19 @@ var APP_DATA = {
           "yaw": 2.3461110813863435,
           "pitch": 0.23086697907656983,
           "rotation": 0,
-          "target": "6-lounge-sofa"
+          "target": "7-lounge-sofa"
         },
         {
           "yaw": -1.1775639259215538,
           "pitch": 0.1766157920525817,
           "rotation": 0,
-          "target": "5-cafeteria1"
+          "target": "6-cafeteria1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-cafeteria1",
+      "id": "6-cafeteria1",
       "name": "CAFETERIA1",
       "levels": [
         {
@@ -229,13 +263,13 @@ var APP_DATA = {
           "yaw": -2.9849571754965254,
           "pitch": 0.4078975387405386,
           "rotation": 0,
-          "target": "4-cafeteria"
+          "target": "5-cafeteria"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-lounge-sofa",
+      "id": "7-lounge-sofa",
       "name": "LOUNGE SOFA",
       "levels": [
         {
@@ -263,47 +297,13 @@ var APP_DATA = {
           "yaw": -1.335200331829956,
           "pitch": 0.3520879444423599,
           "rotation": 0,
-          "target": "3-barra-lounge"
+          "target": "4-barra-lounge"
         },
         {
           "yaw": 1.3428000179821158,
           "pitch": 0.44012448579071517,
           "rotation": 0,
-          "target": "4-cafeteria"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-parteluz",
-      "name": "PARTELUZ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 843.5,
-      "initialViewParameters": {
-        "yaw": 0.051407879786012245,
-        "pitch": 0.27471895877749297,
-        "fov": 1.41569238083293
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.0908503759375066,
-          "pitch": 0.4448838784808178,
-          "rotation": 0,
-          "target": "10-restaurante"
+          "target": "5-cafeteria"
         }
       ],
       "infoHotspots": []
@@ -404,7 +404,7 @@ var APP_DATA = {
           "yaw": -3.1278398325836108,
           "pitch": 0.3793362150866706,
           "rotation": 0,
-          "target": "7-parteluz"
+          "target": "0-parteluz"
         },
         {
           "yaw": 1.7997590050694878,
@@ -444,7 +444,7 @@ var APP_DATA = {
           "yaw": -0.009612878144613646,
           "pitch": 0.10617103930468019,
           "rotation": 0,
-          "target": "0-vestibulo-lounge"
+          "target": "2-vestibulo-lounge"
         },
         {
           "yaw": -3.139378971730739,
